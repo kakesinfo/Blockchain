@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# On va dans le dossier build
+cd ./build
+
+clear
+
+echo "==================="
+echo "    Compilation"
+echo "==================="
+echo " "
+
+# On compile les sources
+cmake --build .
+
+echo " "
+echo "==================="
+echo "     Execution"
+echo "==================="
+echo " "
+
+# On execute le programme
+./badcoin

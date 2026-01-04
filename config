@@ -1,0 +1,14 @@
+#!/bin/bash
+
+clear
+
+echo "==================="
+echo "   Configuration"
+echo "==================="
+echo " "
+
+mkdir ./build/
+
+cd ./build
+
+cmake ..
